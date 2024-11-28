@@ -1,0 +1,215 @@
+body{
+    background-color: bisque;
+}
+header{
+    background-color:rgb(225, 137, 21);
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 10px;
+    border-radius: 10px;
+    padding: 5px 5px;
+}
+header h1{
+    padding-bottom: 10px;
+    padding-left: 20px;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+img{
+    padding-top: 10px;
+    padding-left: 40px;
+    margin: 0;
+}
+nav{
+    display: flex;
+}
+ul{
+    background-color: grey;
+    display: inline-flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    padding: 5px;
+    padding-bottom: 5px;
+    border-radius: 15px;
+}
+li{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    font-weight:bold; 
+}
+#SecondLI, #ThirdLI{
+    padding-left: 10px;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+a:hover{
+    color: rgb(203, 203, 203);
+    cursor:pointer;
+}
+.NavBarMini{
+    padding-top: 128px;
+    padding-left: 10px;
+}
+footer{
+    background-color: #e18915;
+    margin-left: 5px;
+    margin-right: 5px;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    margin-top: 0px;
+    border-radius: 15px;
+}
+footer p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+.BookDetails{
+    margin-top: 20px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    background-color: #e18915;
+    display: inline-flex;
+    white-space: nowrap;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 0px;
+}
+.BookDetails img{
+    padding-left: 0px;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+.DetailsText{
+    padding: 0px;
+    margin: 0px;
+    padding-left: 20px;
+    padding-top: 45px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.DetailsText h1, .DetailsText h2{
+    margin: 0;
+    padding: 0;
+    line-height: 0.9;
+}
+.DetailsText h3{
+    margin: 0;
+    padding: 0;
+    margin-top: 10px;
+}
+.DetailsText p{
+    margin: 0;
+    padding: 0;
+    margin-top: 5px;
+}
+.Buttons{
+    margin:0;
+    padding:0;
+    padding-left: 59px;
+    margin-right: 10px;
+}
+.Buttons input[type = button]{
+    margin-top:426px;
+    border-radius: 15px;
+    background-color:  rgb(2, 121, 225);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    width: 150px;
+    height: 45px;
+    text-align: center;
+    border: 0px;
+}
+.Buttons input[type = button]:hover{
+    background-color: rgb(36, 97, 150);
+    color:rgb(203, 203, 203);
+}
+.Category{
+    background-color: #e18915;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    padding-bottom: 35px;
+    margin:0px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.CategoryTitle{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 25px;
+    padding-top: 10px;
+    padding-bottom: 0px;
+    margin: 0px
+}
+.Category img{
+    border-radius: 25px;
+}
+.Books{ 
+    display: block;
+    white-space: nowrap;
+    overflow-x: auto;
+    gap: 20px;
+    justify-content: space-around; 
+    align-items: flex-start;
+    margin-top: 20px;
+    padding-left:10px;
+    padding-right: 10px;
+    padding-bottom: 30px;
+}
+.Books::-webkit-scrollbar {
+    height: 20px;
+}
+
+.Books::-webkit-scrollbar-thumb {
+    background-color: rgba(74, 74, 74, 0.655);
+    border-radius: 10px;
+}
+.Books::-webkit-scrollbar-thumb:hover{
+    cursor: pointer;
+}
+.Books::-webkit-scrollbar-track {
+    background-color: rgba(91, 91, 91, 0.1);
+    border-radius: 15px;
+}
+.Book
+{
+    display: inline-block;
+    box-shadow: 6px 6px 5px rgb(48, 48, 48);
+    vertical-align: top;
+    flex: 0 0 240px;
+    background-color: aquamarine;
+    border-radius: 15px;
+    margin: 10px;
+}
+.Book img{
+    margin:0;
+    padding:0;
+    margin: 25px;
+    margin-bottom: 0px;
+    width: 120px;
+    height: 200px;
+}
+.Book h2{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    margin:0;
+    padding:0;
+    margin-top:5px;
+    font-size: 16px;
+}
+.Book p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    margin:0;
+    padding:0;
+    margin-bottom:5px;
+    font-size: 8px;
+}
