@@ -2,15 +2,16 @@
 <html>
 <style>
 body{
-    background-color: bisque;
+    background: aqua;
 }
- header{
-    background-color:rgb(225, 137, 21);
+header{
+    background: linear-gradient(to left, #00C4CC, #7B2AE8);
     margin-left: 5px;
     margin-right: 5px;
     margin-top: 10px;
     border-radius: 10px;
     padding: 5px 5px;
+    max-width: 100%;
 }
 header h1{
     padding-bottom: 10px;
@@ -27,7 +28,7 @@ nav{
     display: flex;
 }
 ul{
-    background-color: grey;
+    background-color: rgba(255, 255, 255, 0.479);
     display: inline-flex;
     list-style-type: none;
     margin: 0;
@@ -37,6 +38,7 @@ ul{
     border-radius: 15px;
 }
 li{
+    opacity: 100%;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 20px;
     font-weight:bold; 
@@ -45,11 +47,13 @@ li{
     padding-left: 10px;
 }
 header a{
-    color: white;
+    color: rgb(0, 0, 0);
+    opacity: 100%;
     text-decoration: none;
 }
 header a:hover{
-    color: rgb(203, 203, 203);
+    color: rgb(57, 56, 56);
+    opacity: 100%;
     cursor:pointer;
 }
 .NavBarMini{
@@ -57,13 +61,14 @@ header a:hover{
     padding-left: 10px;
 }
 footer{
-    background-color: #e18915;
+    background: linear-gradient(to left, #00C4CC, #7B2AE8);
     margin-left: 5px;
     margin-right: 5px;
     padding-bottom: 0px;
     padding-top: 0px;
     margin-top: 0px;
     border-radius: 15px;
+    max-width: 100%;
 }
 footer p{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -74,7 +79,7 @@ footer p{
     padding-bottom: 25px;
 }
 .Category{
-    background-color: #e18915;
+    background: linear-gradient(to left, #00C4CC, #7B2AE8);
     border-radius: 15px;
     padding-bottom: 35px;
     margin:0px;
@@ -192,7 +197,7 @@ footer p{
         <header>
             <nav>
                 <div>
-                    <img src="WebSite_Logo.PNG"  alt="Logo" width="120" height="120">
+                    <img src="WebSite_Logo.PNG"  alt="Logo" width= "120px" height="120px">
                     <h1>TheDailyBooks</h1>
                 </div>
                 <div class="NavBarMini">
@@ -208,7 +213,6 @@ footer p{
     <div class="Category">
         <h2 class="CategoryTitle">Fiction</h2>
         <div class="Books">
-       
             <div class="Book">
             <a href="Book1_Details.html">
                 <img src="Books\Book1_WindHaven.PNG" alt="WindHaven" width = 240px height = 400px>
