@@ -222,6 +222,25 @@ footer p{
     color:rgb(203, 203, 203);
     cursor: pointer;
 }
+#Qty{
+    padding: 0px;
+    margin:0px;
+    padding-top: 10px;
+    display: inline-flex;
+}
+#Qty p{
+    font-size: 22px;
+    font-weight: bold;
+}
+#Qty select{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    width: 40px;
+    height: 30px;
+    border-radius: 10px;
+    margin-left: 5px;
+    padding-left: 6px;
+}
 </style>
 <head>
 <title>HomePage</title>
@@ -266,24 +285,19 @@ footer p{
             <h1>Circe</h1>
             <h2>Madeline Miller</h2>
             <p id="DividorLine">_______________________________________________________________________</p>
-        </div>
-        </div>
-        <div class="Buttons">
-            <h3>Rs.1450</h3>
-            <input type="button" value="RemoveItem">
-        </div>
-    </div>
-    <div class="CartItem">
-        <img src="Books\Book24_OnePieceVolume1.PNG" alt="Circe">
-        <div class="DetailsText">
-            <div>
-            <h1>One Piece Volume#1</h1>
-            <h2>Eiichiro Oda</h2>
-            <p id="DividorLine">_______________________________________________________________________</p>
+            <div id="Qty">
+            <p>Qty</p>
+            <select name="quantity" id="qtydropdown">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+            </select>
+            </div>
             </div>
         </div>
         <div class="Buttons">
-            <h3>Rs.2650</h3>
+            <h3>Rs.1450</h3>
             <input type="button" value="RemoveItem">
         </div>
     </div>
@@ -294,7 +308,16 @@ footer p{
             <h1>Dune</h1>
             <h2>Frank Herbert</h2>
             <p id="DividorLine">_______________________________________________________________________</p>
-            </div>
+            <div id="Qty">
+                <p>Qty</p>
+                <select name="quantity" id="qtydropdown">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                </select>
+                </div>
+        </div>
         </div>
         <div class="Buttons">
             <h3>Rs.2500</h3>
@@ -308,7 +331,16 @@ footer p{
             <h1>Sapiens</h1>
             <h2>Yuval Noah Harari</h2>
             <p id="DividorLine">_______________________________________________________________________</p>
-            </div>
+            <div id="Qty">
+                <p>Qty</p>
+                <select name="quantity" id="qtydropdown">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                </select>
+                </div>
+        </div>
         </div>
         <div class="Buttons">
             <h3>Rs.2500</h3>
