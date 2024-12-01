@@ -2,7 +2,7 @@ body{
     background-color: bisque;
 }
 header{
-    background-color:rgb(225, 137, 21);
+    background: linear-gradient(to left, #00C4CC, #7B2AE8);
     margin-left: 5px;
     margin-right: 5px;
     margin-top: 10px;
@@ -74,7 +74,7 @@ footer p{
     margin-top: 20px;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
-    background-color: #e18915;
+    background: linear-gradient(to left, #00C4CC, #7B2AE8);
     display: inline-flex;
     white-space: nowrap;
     margin-left: 5px;
@@ -133,7 +133,7 @@ footer p{
     color:rgb(203, 203, 203);
 }
 .Category{
-    background-color: #e18915;
+    background: linear-gradient(to left, #00C4CC, #7B2AE8);
     border-bottom-right-radius: 15px;
     border-bottom-left-radius: 15px;
     padding-bottom: 35px;
@@ -185,7 +185,7 @@ footer p{
     box-shadow: 6px 6px 5px rgb(48, 48, 48);
     vertical-align: top;
     flex: 0 0 240px;
-    background-color: aquamarine;
+    background: linear-gradient(to bottom right, #edcb9f, #a97837);
     border-radius: 15px;
     margin: 10px;
 }
@@ -212,4 +212,33 @@ footer p{
     padding:0;
     margin-bottom:5px;
     font-size: 8px;
+}
+#RatingTitle{
+    font-size: 22px;
+    font-weight: bold;
+}
+.BookDetails progress{
+    width: 150px;
+    height: 15px;
+    padding-top: 3px;
+    appearance: none;
+}
+progress::-webkit-progress-bar {
+    background-color: lightgray;
+    border-radius: 15px;
+}  
+progress::-webkit-progress-value {
+    background-color: gold;
+    border-radius: 15px;
+}
+#RatingBar{
+    display: flex;
+    align-items: center;
+}
+#RatingBar p{
+    font-size: 20px;
+    padding-left: 20px;
+    padding-top: 0px;
+    margin-top: 0px;
+    font-weight: bold;
 }

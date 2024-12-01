@@ -56,6 +56,15 @@ header a:hover{
     opacity: 100%;
     cursor:pointer;
 }
+header p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+header .SocialMedia{
+    padding-left: 43%;
+}
 .NavBarMini{
     padding-top: 128px;
     padding-left: 10px;
@@ -66,7 +75,7 @@ footer{
     margin-right: 5px;
     padding-bottom: 0px;
     padding-top: 0px;
-    margin-top: 0px;
+    margin-top: 20px;
     border-radius: 15px;
     max-width: 100%;
 }
@@ -75,8 +84,34 @@ footer p{
     font-size: 20px;
     font-weight: bold;
     text-align: center;
+    padding-top: 5px;
+}
+.FooterItems{
     padding-top: 25px;
     padding-bottom: 25px;
+    padding-left: 26%;
+    display: inline-flex;
+}
+.SocialMedia{
+    display: grid;
+    row-gap: 0px;
+}
+.MediaHandles{
+    display: inline-flex;
+}
+.MediaHandles p{
+    margin: 0px;
+    padding: 0px;
+    padding-top: 15px;
+    padding-left: 5px;
+}
+.MediaHandles img{
+    width: 40px;
+    height: 40px;
+    margin: 0px;
+    padding: 0px;
+    padding-left: 20px;
+    padding-top: 8px;
 }
 .SignUpForm{    
     background: linear-gradient(to left, #00C4CC, #7B2AE8);
@@ -232,6 +267,20 @@ footer p{
                         <li id="ThirdLI"><a href="ShoppingCartPage.html">Shopping Cart</a></li>
                     </ul>
                 </div>
+                <div class="SocialMedia">
+                    <div class="MediaHandles">
+                         <img src="Instagram_Logo.png" alt="Instagram">
+                        <p>@TheDailyBooks</p>
+                    </div>
+                    <div class="MediaHandles">
+                        <img src="Youtube_Logo.png" alt="YouTube">
+                        <p>TheDailyBooks</p>
+                    </div>
+                    <div class="MediaHandles">
+                        <img src="Facebook_Logo_2023.png" alt="FaceBook">
+                        <p>@TheDailyBooks</p>
+                    </div>
+                </div> 
             </nav>
         </header>
     </div>
@@ -268,11 +317,27 @@ footer p{
         </div>
     </div>
     <footer>
-        <p>Having Issues Sigining Up or Loging in?<br>
-            Contact Us!<br>
-            Email: TheDailyBooks@gmail.com<br>
-            Ph: +92 319 0527083<br>
-            Tel: 051 123 678 910</p>
+        <div class="FooterItems">
+            <p>Having Issues or Want to Request a Book?<br>
+                Contact Us!<br>
+                Email: TheDailyBooks@gmail.com<br>
+                Ph: +92 319 0527083<br>
+                Tel: 051 123 678 910</p>
+                <div class="SocialMedia">
+                    <div class="MediaHandles">
+                         <img src="Instagram_Logo.png" alt="Instagram">
+                        <p>@TheDailyBooks</p>
+                    </div>
+                    <div class="MediaHandles">
+                        <img src="Youtube_Logo.png" alt="YouTube">
+                        <p>TheDailyBooks</p>
+                    </div>
+                    <div class="MediaHandles">
+                        <img src="Facebook_Logo_2023.png" alt="FaceBook">
+                        <p>@TheDailyBooks</p>
+                    </div>
+                </div> 
+        </div>
     </footer>
 </body>
 </html>
